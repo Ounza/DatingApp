@@ -9,8 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Datingapi.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+
     public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
